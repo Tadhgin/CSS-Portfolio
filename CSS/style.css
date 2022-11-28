@@ -110,7 +110,7 @@ footer a {
     margin: 10px;
     flex-basis: calc(100% - 30px);
     height: 300px;
-    background-image: url("C:\Users\TAG\desktop\bootcamp\assignments\CSS-Portfolio\Images\surf.jpg");
+    background-image: url("surf.jpg");
     background-size: cover;
 }
 #led-wall {
@@ -118,7 +118,7 @@ footer a {
     margin: 10px;
     flex-basis: calc(50% - 30px);
     height: 150px;
-    background-image: url("C:\Users\TAG\desktop\bootcamp\assignments\CSS-Portfolio\Images\LEDwall.jpg");
+    background-image: url("LEDwall.jpg");
     background-size: cover;
 }
 #calculator {
@@ -126,7 +126,7 @@ footer a {
     margin: 10px;
     flex-basis: calc(50% - 30px);
     height: 150px;
-    background-image: url("C:\Users\TAG\desktop\bootcamp\assignments\CSS-Portfolio\Images\calculator.jpg");
+    background-image: url("calculator.jpg");
     background-size: cover;
 }
 #pastel-puzzels {
@@ -134,7 +134,7 @@ footer a {
     margin: 10px;
     flex-basis: calc(50% - 30px);
     height: 150px;
-    background-image: url("C:\Users\TAG\desktop\bootcamp\assignments\CSS-Portfolio\Images\pastelpuzzles.jpg");
+    background-image: url("pastelpuzzles.jpg");
     background-size: cover;
 }
 #run-buddy {
@@ -142,7 +142,7 @@ footer a {
     margin: 10px;
     flex-basis: calc(50% - 30px);
     height: 150px;
-    background-image: url("C:\Users\TAG\desktop\bootcamp\assignments\CSS-Portfolio\Images\runbuddy.jpg");
+    background-image: url("runbuddy.jpg");
     background-size: cover;
 }
 
