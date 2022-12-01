@@ -39,7 +39,7 @@ header {
   
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: url('./assets/images/sydneyheader.jpg');
+  background-image: url('../images/sydneyheader.jpg');
   background-size: cover;
   padding: 20px 35px;
   background-position: 80%;
@@ -149,7 +149,7 @@ footer h2 {
 .secondPrgraph {
   height: 60%;
   width: 100;
-  background-image: url('');
+  background-image: url('../images/sydneyheader.jpg');
   background-size: contain;
   background-position: center;
   background-repeat: cover;
@@ -234,23 +234,23 @@ header nav ul li a:hover {
 }
 
 .run-buddy {
-  background-image: url('./assets/images/runbuddy.jpg');
+  background-image: url('../images/runbuddy.jpg');
 }
 
 .led-wall {
-  background-image: url('./assets/images/LEDwall.jpg');
+  background-image: url('../images/LEDwall.jpg');
 }
 
 .react-calc {
-  background-image: url('./assets/images/calculator.jpg');
+  background-image: url('../images/calculator.jpg');
 }
 
 .pastel-puzzles {
-  background-image: url('./assets/images/pastelpuzzles.jpg');
+  background-image: url('../images/pastelpuzzles.jpg');
 }
 
 .surf-report {
-  background-image: url('./assets/images/surf.jpg');
+  background-image: url('../images/surf.jpg');
 }
 
 address a:visited {
