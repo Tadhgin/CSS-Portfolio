@@ -1,62 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="C:\Users\TAG\desktop\bootcamp\assignments\CSS-Portfolio\CSS\style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="./assets/CSS/styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>My Portfolio</h1>
-        <a href="#about-me">About Me</a>
-        <a href="#work">Work</a>
-        <a href="#contact-me">Contact Me</a>
-        <a href="#">Resume</a>
+      <h1>Portfolio</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#aboutme">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#ContactMe">Contact Me</a>
+          </li>
+          <li>
+            <a href="#reach-out">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main>
-        <img id="hero" src="sydneyheader.jpg" alt="Hero sydneyheader">
-        <h2>Thank you for choosing the best</h2>
-        <section id="about-me">
-            <h3>About<br/>Me</h3>
-            <p class="right">About section tells your visitors about your portfolio</p>
-        </section>
-        <section id="work">
-            <h3>Work</h3>
-            <div id="tiles">
-                <div id="surf-report" href="#">
-                    <h4>Surf Report</h4>    
-                    <h5>MERN Stack</h5>
-                </div>
-                <div id="led-wall" href="#">
-                    <h4>LED Wall</h4>
-                    <h5>Node/IoT</h5>
-                </div>
-                <div id="calculator" href="#">
-                    <h4>Calculator</h4>
-                    <h5>React/JavaScript/CSS</h5>
-                </div>
-                <div id="pastel-puzzles" href="#">
-                    <h4>Pastel Puzzles</h4>
-                    <h5>MERN Stack</h5>
-                </div>
-                <div id="run-buddy" href="#">
-                    <h4>Run Buddy</h4>
-                    <h5>HTML/CSS</h5>
-                </div>
+
+    <section class="secondPrgraph">
+      <button>Thank you for choosing the best!</button>
+    </section>
+    <section class="aboutMe" id="aboutme">
+      <!-- <div class="flex-containerMe"> -->
+      <div>
+        <h2>aboutMe</h2>
+      </div>
+      <div class="flex-itemMe">
+        <p>
+          The about me section is to let your viewers get to know YOU!
+        </p>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <main class="pageSelection" id="work">
+      <div>
+        <h2>Work</h2>
+      </div>
+
+      <div class="flex-container">
+        
+          <a
+            class="flex-item led-wall"
+          >
+            <div class="inner-container">
+              <h3>LED Wall</h3>
+              <span>Node/IoT</span>
             </div>
-        </section>
-    </main>
-    <footer id="contact-me">
-        <h3>Contact</br>Me</h3>
-        <div class="right">
-            <a href="tel:555-555-5555">555.555.5555</a>
-            <a href="mailto:lernantino@website.com">lernantino@website.com</a>
-            <a href="https://github.com/Tadhgin/CSS-Portfolio">GitHub</a>
-            <a href="https://twitter.com/home">Twitter</a>
-            <a href="https://www.spotify.com/us/">Spotify</a>
+          </a>
+
+          <a
+            class="flex-item react-calc"
+          >
+            <div class="inner-container">
+              <h3>Calculator</h3>
+              <span>React/JavaScript/CSS</span>
+            </div>
+          </a>
+
+          <a
+            class="flex-item pastel-puzzles"
+          >
+            <div class="inner-container">
+              <h3>Pastel Puzzels</h3>
+              <span>MERN Stack</span>
+            </div>
+          </a>
+
+          <a
+            class="flex-item run-buddy"
+          >
+            <div>
+              <div class="inner-container">
+                <h3>Run Buddy</h3>
+                <span>HTML/CSS</span>
+              </div>
+            </div>
+          </a>
         </div>
+      </div>
+    </main>
+
+    <footer class="footer" id="ContactMe">
+      <h2>contact Me</h2>
+
+      <address>
+        <a href="tel:+15555555555">555.555.5555</a>
+        <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+        <a href="#">Twitter</a>
+        <a href="#">Spotify</a>
+      </address>
     </footer>
-</body>
+  </body>
 </html>
