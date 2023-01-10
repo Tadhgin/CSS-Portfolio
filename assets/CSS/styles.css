@@ -32,7 +32,6 @@ body {
 header {
   display: flex;
   background-color: var(--header);
-  
   justify-content: space-between;
   flex-wrap: wrap;
   background-image: url('../images/sydneyheader.jpg');
@@ -59,16 +58,11 @@ header nav ul li {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
-  
 }
-
 footer {
-
   display: flex;
   justify-content: space-between;
-
 }
-
 footer address {
   text-shadow: 0 0 10px rgb(0 0 0 / 50%);
   display: flex;
@@ -76,8 +70,6 @@ footer address {
   width: 80%;
   align-items: center;
 }
-
-
 .flex-container {
   margin-left: 16px;
   display: flex;
@@ -87,7 +79,6 @@ footer address {
   flex: 1;
   text-decoration: none;
 }
-
 .flex-item {
   width: 49%;
   border-radius: 14px;
@@ -104,7 +95,6 @@ footer address {
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
-  /* margin: 12px; */
   justify-content: flex-end;
 }
 .flex-item span {
@@ -113,12 +103,10 @@ footer address {
   padding: 16px;
   text-align: center;
 }
-
 .aboutMe h2,
 .pageSelection h2,
 footer h2 {
   border-right: 6px solid teal;
-
   display: flex;
   padding: 10px 20px 0 0;
   align-items: center;
@@ -129,7 +117,6 @@ footer h2 {
   max-width: 200px;
   height: 100%;
 }
-
 .flex-itemMe {
   margin-left: 24px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -138,7 +125,6 @@ footer h2 {
 .flex-containerMe {
   display: flex;
 }
-
 .secondPrgraph {
   height: 60%;
   width: 100;
@@ -146,7 +132,6 @@ footer h2 {
   background-size: contain;
   background-position: center;
   background-repeat: cover;
- 
 }
 .aboutMe,
 .pageSelection,
@@ -184,7 +169,6 @@ footer {
   border:3px solid darkblue;
   border-left: none;
   color:black;
-
 }
 a.flex-item{
   text-decoration: none;
@@ -201,14 +185,10 @@ footer address a {
   background-position: bottom;
   transition: all 0.25s ease-in;
   display: inline-block;
-
 }
-
 footer address a:hover {
   background-size: 100% 88%;
-
-  /* background-color: var(--hover); */
-   border-radius: 15px;
+  border-radius: 15px;
   padding: 10px 1px; 
 }
 header nav ul li a:hover {
@@ -217,39 +197,30 @@ header nav ul li a:hover {
   border-radius: 15px;
   padding: 10px 1px;
 }
-
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
 } 
-
 .inner-container h3 {
   font-size: 1.6rem;
 }
-
 .run-buddy {
   background-image: url('../images/runbuddy.jpg');
 }
-
-.led-wall {
-  background-image: url('../images/LEDwall.jpg');
+.workday-scheduler {
+  background-image: url(../images/scheduler.jpg)
 }
-
 .react-calc {
   background-image: url('../images/calculator.jpg');
 }
-
 .pastel-puzzles {
   background-image: url('../images/pastelpuzzles.jpg');
 }
-
 .surf-report {
   background-image: url('../images/surf.jpg');
 }
-
 address a:visited {
   color: rgb(0, 0, 238);
 }
-
 @media screen and (max-width: 768px) {
   .flex-container {
     width: 45%;
@@ -259,20 +230,16 @@ address a:visited {
     overflow: auto;
     align-items: center;
   }
-
   .pageSelection {
     justify-content: center;
     flex-wrap: wrap;
   }
-
   .footer {
     display: flex;
     justify-content: space-between;
   }
 }
-
 @media screen and (max-width: 375px) {
-  
   .flex-container {
     width: 100%;
     overflow: auto;
@@ -290,7 +257,6 @@ address a:visited {
   .pageSelection h2,
   footer h2 {
     border-right: none;
-   
   } 
   .aboutMe, .pageSelection, footer {
     flex-direction: column;
