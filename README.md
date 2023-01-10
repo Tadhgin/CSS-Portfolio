@@ -29,4 +29,4 @@ The following image shows the web application's appearance and functionality:
 ![Screenshot (6)](https://user-images.githubusercontent.com/117637052/205071922-362bb0b3-83ff-4c4d-b577-7684f567c751.png)
 
 ## Deployment
-Please launch the site here~ http://127.0.0.1:5500/index.html
+Please launch the site here~ https://tadhgin.github.io/CSS-Portfolio/
